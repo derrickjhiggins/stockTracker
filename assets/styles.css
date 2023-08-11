@@ -1,0 +1,31 @@
+* {
+    margin: .5px;
+    padding: .25%;
+    box-sizing: 0;
+    font-family: "Roboto", sans-serif;
+  }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FF7276;
+}
+
+.right-align-button {
+    justify-self: flex-end;
+    align-items: center;
+}
+
+.year-slider {
+    display: flex;
+    width: 200%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: normal;
+}
